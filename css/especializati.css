@@ -1,0 +1,236 @@
+/*Utilidades*/
+.oculta{font-size: 0px; margin: 0px; padding: 0px;}
+img.logo{max-width: 200px;}
+.clear{clear: both;}
+.divider{background: url("http://localhost/curso-front/imgs/divider.png"); width: 162px; /* margin: 4px; */ padding: 4px; /* text-align: center; */background-repeat: no-repeat;margin: 0px auto;}
+.titulo{
+    text-transform: uppercase;
+    color: #33B5E5;
+    font-size: 35px;
+    font-weight: bold;
+}
+.descricao{
+    color: #4A4A4A;
+    line-height: 24px;
+    margin: 5px;
+}
+
+
+/*Backgrounds Parallax*/
+.background-parallax-slide{background: url("http://localhost/curso-front/imgs/background-parallax-home.png"); background-attachment: fixed;}
+.background-parallax-detalhes{background: url("http://localhost/curso-front/imgs/background-parallax.png"); background-attachment: fixed;}
+
+
+/*Backgrounds Colors*/
+
+
+/*Cores*/
+.color-white{color: #FFF;}
+.color-web{
+    color: #357CB8;
+}
+.color-laravel{
+    color: #FB5541;
+}
+.color-html5{
+    color: #1C53F9;
+}
+
+
+/*Resets*/
+a:hover{text-decoration: none !important;}
+
+
+/*Fonts Sizes*/
+
+
+/*Btns*/
+.btn-saiba-mais{
+    color: #FFF;
+    background-color: #EADC33;
+    padding: 10px 24px;
+    border-radius: 3px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.btn-saiba-mais:hover{
+    background-color: #FFF;
+    color: #EADC33;
+    text-decoration: none;
+}
+
+
+/*Paddings*/
+.padding-10{padding: 10px 0px;}
+.padding-20{padding: 20px 0px;}
+.padding-30{padding: 30px 0px;}
+.padding-40{padding: 40px 0px;}
+.padding-50{padding: 50px 0px;}
+.padding-60{padding: 60px 0px;}
+.padding-70{padding: 70px 0px;}
+.padding-80{padding: 80px 0px;}
+
+
+/*Forms*/
+form.especializati-form{
+    max-width: 650px;
+    margin: 0px auto;
+}
+form.especializati-form input{
+    width: 100%;
+    margin: 5px;
+    height: 50px;
+    padding: 5px;
+    border: none;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+form.especializati-form textarea{
+	padding: 5px;
+	border: none;
+	color: #333;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	min-height: 120px;
+	margin: 5px;
+}
+form.especializati-form input[type="submit"]{
+    background: #FFCA33;
+    color: #FFF;
+    font-size: 18px;
+    width: 140px;
+    border-radius: 2px;
+}
+form.especializati-form input[type="submit"]:hover{
+	background: #FFF;
+    color: #FFCA33;
+}
+
+
+/*Header*/
+.header{
+    background-color: #33B5E5;
+    float: left;
+    width: 100%;
+    padding: 15px;
+}
+.logo{float: left;}
+ul.menu{
+    list-style: none;
+    float: right;
+    margin-top: 8px;
+}
+ul.menu li{
+    display: inline;
+}
+ul.menu li a{
+    margin: 8px 32px;
+    color: #FFF;
+    /* font-weight: bold; */
+    font-size: 16px;
+}
+ul.menu li a:hover{
+    color: #525252;
+    text-decoration: none;
+}
+
+
+/*slide*/
+.slide{padding: 120px 0px;}
+.titulo-slide{
+    font-size: 40px;
+}
+.descricao-slide{
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+
+/*Sobre*/
+.detalhe-sobre{
+    margin-top: 32px;
+}
+.titulo-sobre{
+    font-size: 18px;
+    font-weight: bold;
+    color: #83C9C7;
+}
+.sobre{
+    color: #999;
+}
+
+
+/*Cursos*/
+.cursos{}
+.curso{
+    margin-top: 22px;
+}
+.img-curso{
+    max-width: 260px;
+}
+.titulo-curso{
+    font-size: 18px;
+    /* color: #33B5E5; */
+    font-weight: bold;
+    margin: 8px;
+}
+
+
+/*Projeto pratico*/
+.projeto-curso{
+    padding: 20px !important;
+}
+.img-projeto-pratico{
+    max-width: 100%;
+    position: absolute;
+    z-index: 0;
+    float: left;
+    top: 0;
+    left: 0;
+    padding: 0px;
+}
+.detalhe-sobre-projeto{
+    position: relative;
+    z-index: 5;
+    margin-top: 0px;
+    background-color: #33B5E5;
+    padding: 8px;
+    color: #FFF;
+    width: 100%;
+    height: 135px;
+    opacity: 0;
+}
+.detalhe-sobre-projeto:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.titulo-detalhe-projeto{
+    font-size: 20px;
+}
+.descricao-projeto{
+    font-size: 12px;
+}
+
+
+
+/*Contato*/
+.contato-form{
+    background-color: #505050;
+    padding: 50px 0px;
+    margin-top: 20px;
+}
+
+
+
+/*Copy*/
+div.copyright{
+    background-color: #333;
+    margin: 0px;
+    padding: 8px;
+}
+p.copyrigth{
+    color: #FFF;
+    margin: 0px;
+}
